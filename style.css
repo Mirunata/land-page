@@ -1,0 +1,139 @@
+html,
+body {
+	height: 100%;
+	width: 100%;
+	background: url(clouds.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+body {
+	margin: 0;
+}
+
+.topnav {
+ background-color: rgba(110, 72, 86, 0.2);
+ overflow: hidden;
+ font-family: 'Montserrat', sans-serif;
+ width: 100%;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #6E4856;
+  color: white;
+}
+
+h1, h4 {
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(255, 252, 252, 0.7);
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+.row2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.card {
+	border-radius: 0.25rem;
+	background-color: rgba(233, 210, 210, 0.5);
+	border: 1px solid rgba(0,0,0,.125);
+	margin-bottom: 3rem;
+	width:  100%;
+}
+
+.container {
+	padding: 0 10px;
+}
+
+.container2 {
+	display:  flex;
+	align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 525px) {
+	.container2 {
+		flex-direction: column;
+	}
+}
+
+h2, .text, .myprojects {
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.image {
+	margin-left: 20px;
+}
+
+.text {
+	margin-left: 20px;
+}
+
+.about, .myprojects {
+	margin-left:  20px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.icons {
+	margin-top: 10px;
+}
+
+.container3 {
+	display:  flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	align-content: space-between;
+	padding: 30px;
+}
+
+.pic1 {
+	padding-right: 30px;
+	border-radius: 10%;
+}
+
+.pic2 {
+	padding-right: 30px;
+	border-radius: 10%;
+}
+
+.pic3 {
+	padding-right: 30px;
+	border-radius: 10%;
+}
+
+img {
+	object-fit: cover;
+}

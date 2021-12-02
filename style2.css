@@ -1,0 +1,19 @@
+html, 
+body {
+		height: 100%;
+	width: 100%;
+	background: url(clouds.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	border-top: 2px #6E4856;
+	border-bottom: 2px #6E4856;
+	border-left: 2px #6E4856;
+	border-right: 2px #6E4856;
+}
